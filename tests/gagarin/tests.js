@@ -109,3 +109,9 @@ describe("simple gagarin test on the client", function() {
 //     branch: "master"
 //     commands:
 //       - printf "<Meteor username>\n<Meteor password>\n" | meteor deploy circlecivelocity.meteor.com
+
+// machine:
+//   pre:
+//     - curl https://install.meteor.com | sh
+//     - chromedriver --port=9515:
+//         background: true
