@@ -5,7 +5,6 @@ machine:
     - chromedriver --port=9515:
         background: true
 
-
 test:
   override:
     - gagarin -v
